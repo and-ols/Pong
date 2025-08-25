@@ -45,5 +45,5 @@ class Ball(Turtle):
         """Centers the ball on the screen and resets the speed"""
         self.goto(0,0)
         self.bounce_x()
-        self.move_speed(.1)
+        self.move_speed = .1
 
